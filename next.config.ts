@@ -6,7 +6,7 @@ const withPWA = nextPWA({
   register: true,
   skipWaiting: true,
   // 開発用（デプロイ時は消す）
-  // disable: process.env.NODE_ENV === "development",
+  disable: process.env.NODE_ENV === "development",
 });
 
 const nextConfig = withPWA({
