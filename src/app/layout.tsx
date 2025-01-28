@@ -23,7 +23,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#caeaf8" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
